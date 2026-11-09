@@ -1,0 +1,27 @@
+# Estado local, arquivos temporários e pacotes gerados.
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+
+# Não incluir notas pessoais ao usar o modelo no próprio repositório.
+vault/Disciplinas/**
+!vault/Disciplinas/.gitkeep
+vault/Estudos independentes/**
+!vault/Estudos independentes/.gitkeep
+vault/Para organizar/**
+!vault/Para organizar/Caixa de entrada.md
+!vault/Para organizar/Arquivos/
+!vault/Para organizar/Arquivos/.gitkeep
+vault/.trash/
+vault/.claudian/
+vault/.vaultcraft/
+vault/.obsidian/workspace*.json
+vault/.obsidian/graph.json
+vault/.obsidian/plugins/*/data.json
+vault/.obsidian/plugins/realclaudian/
+

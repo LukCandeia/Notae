@@ -1,0 +1,41 @@
+/* Primary capture action in the native left ribbon. */
+.workspace-ribbon .side-dock-ribbon-action.faculdade-facil-add-content {
+  color: var(--text-on-accent);
+  background-color: var(--interactive-accent);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 32px;
+  height: 36px;
+  align-self: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.workspace-ribbon .side-dock-ribbon-action.faculdade-facil-add-content:hover { background-color: var(--interactive-accent-hover); color: var(--text-on-accent); }
+.workspace-ribbon .side-dock-ribbon-action.faculdade-facil-add-content:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; }
+.faculdade-facil-modal { width: min(560px, 94vw); max-height: 90vh; }
+.faculdade-facil-modal .modal-content { overflow-y: auto; }
+.faculdade-facil-modal form { display: flex; flex-direction: column; gap: 18px; padding: 2px; }
+.faculdade-facil-modal label { display: flex; flex-direction: column; gap: 8px; font-size: var(--font-ui-small); font-weight: 600; }
+.faculdade-facil-modal select, .faculdade-facil-modal input[type="text"] { width: 100%; min-height: 44px; font-size: var(--font-ui-medium); }
+.faculdade-facil-modal select { text-overflow: ellipsis; }
+.faculdade-facil-modal textarea { width: 100%; min-height: 112px; resize: vertical; line-height: 1.6; padding: 12px; font-family: inherit; font-size: var(--font-ui-medium); }
+.faculdade-facil-modal input[type="file"] { width: 100%; font-weight: 400; min-height: 36px; }
+.faculdade-facil-modal input[type="file"]::file-selector-button { min-height: 36px; padding: 6px 12px; margin-right: 10px; border: 1px solid var(--background-modifier-border); border-radius: 6px; color: var(--text-normal); background: var(--background-secondary); cursor: pointer; }
+.faculdade-facil-modal :is(input,select,textarea,button,summary):focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; }
+.faculdade-facil-modal [hidden] { display: none !important; }
+.faculdade-facil-hint { font-size: var(--font-small); color: var(--text-muted); margin: 0; line-height: 1.6; overflow-wrap: anywhere; }
+.faculdade-facil-destination { font-size: var(--font-small); color: var(--text-muted); margin: 0; line-height: 1.5; }
+.faculdade-facil-error { color: var(--text-error); margin: 0; line-height: 1.5; }
+.faculdade-facil-error:empty { display: none; }
+.faculdade-facil-actions { display: flex; justify-content: flex-end; gap: 12px; padding-top: 12px; border-top: 1px solid var(--background-modifier-border); }
+.faculdade-facil-actions button { min-height: 44px; padding-inline: 18px; }
+.faculdade-facil-clear { align-self: flex-start; min-height: 36px; }
+.faculdade-facil-details summary { color: var(--text-muted); cursor: pointer; padding: 8px 0; font-size: var(--font-ui-small); }
+.faculdade-facil-details[open] label { margin-top: 10px; }
+.faculdade-facil-modal form.is-dragging { outline: 2px dashed var(--interactive-accent); outline-offset: 6px; }
+.faculdade-facil-recentes { list-style: none !important; padding: 0 !important; margin: 0 !important; }
+.faculdade-facil-recentes li { display: flex; flex-direction: column; gap: 2px; padding: 10px 0; }
+.faculdade-facil-recentes li + li { border-top: 1px solid var(--background-modifier-border); }
+.faculdade-facil-recentes a { font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
+.faculdade-facil-recentes a:hover { text-decoration: underline; }
+@media (max-width: 480px) { .faculdade-facil-modal { width: 96vw; } .faculdade-facil-actions button { flex: 1; padding-inline: 10px; } }

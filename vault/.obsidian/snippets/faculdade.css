@@ -1,0 +1,9 @@
+/* Keep Obsidian's native theme and comfortable reading widths. */
+.inicio-faculdade { --file-line-width: 740px; }
+.inicio-faculdade h1 { font-size: 2em; letter-spacing: -0.025em; margin-bottom: 0.45em; }
+.inicio-faculdade h2 { margin-top: 1.8em; margin-bottom: 0.65em; font-size: 1.15em; }
+.inicio-faculdade .markdown-preview-sizer { padding-bottom: 40px; }
+.inicio-faculdade p, .inicio-faculdade li { line-height: 1.65; }
+.markdown-rendered a[href^="obsidian://notae?"] { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 18px; margin: 6px 0 10px; border-radius: 8px; text-decoration: none; font-weight: 600; color: var(--text-on-accent); background: var(--interactive-accent); }
+.markdown-rendered a[href^="obsidian://notae?"]:hover { background: var(--interactive-accent-hover); }
+.markdown-rendered a[href^="obsidian://notae?"]:focus-visible, .faculdade-facil-recentes a:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 4px; }

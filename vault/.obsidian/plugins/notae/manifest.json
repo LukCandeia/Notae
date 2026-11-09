@@ -1,0 +1,9 @@
+{
+  "id": "notae",
+  "name": "Notaê",
+  "version": "1.3.0",
+  "minAppVersion": "1.4.4",
+  "description": "Crie disciplinas e estudos independentes e organize textos, práticas e materiais em um único formulário.",
+  "author": "LukCandeia",
+  "isDesktopOnly": false
+}
