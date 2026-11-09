@@ -43,6 +43,10 @@ O modelo começa vazio. Não exige um curso específico, nome de vault, conta on
 
 ## Comece a usar
 
+[**Baixar Notaê v0.1.0 — vault pronto para usar**](https://github.com/LukCandeia/Notae/releases/download/v0.1.0/notae-v0.1.0.zip)
+
+Extraia o ZIP e abra a pasta **Notaê** no Obsidian. Para baixar o código-fonte e os arquivos de desenvolvimento, siga o caminho abaixo.
+
 1. Instale o [Obsidian](https://obsidian.md/download).
 2. Baixe este repositório por **Code → Download ZIP** e extraia o arquivo.
 3. Copie a pasta **vault** para o local em que você guarda seus estudos. Você pode renomeá-la para **Notaê** ou outro nome.
@@ -103,7 +107,7 @@ Não há dependências npm externas. O código do complemento é o próprio `vau
 
 O `.gitignore` evita adicionar novas notas de estudo aos caminhos mais comuns. Ele não substitui a revisão do que será enviado ao GitHub. Prefira usar uma cópia do vault para estudar e manter o repositório para desenvolvimento.
 
-Veja [como contribuir](CONTRIBUTING.md), [as verificações da versão](docs/VERIFICACAO.md) e [os próximos passos para publicar](docs/PUBLICACAO.md).
+Veja [como contribuir](CONTRIBUTING.md) e [as verificações da versão](docs/VERIFICACAO.md).
 
 ## Autoria e licença
 
